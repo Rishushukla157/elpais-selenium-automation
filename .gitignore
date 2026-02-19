@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Local IDE settings
+.vscode/
+
+# Images (optional - if you want to keep your repo light)
+# article_images/
