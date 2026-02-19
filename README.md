@@ -77,6 +77,25 @@ BROWSERSTACK_ACCESS_KEY=your_browserstack_access_key
 ```Bash
 python browserstack_parallel.py
 ```
+
+
+### 🌐 BrowserStack Target Environments
+
+The following table outlines the specific configurations used for cross-browser and cross-platform validation. All tests were executed in parallel to ensure consistency across different rendering engines.
+
+| # | OS / Platform | Browser | Version | Execution Type |
+| :-- | :--- | :--- | :--- | :--- |
+| **0** | Windows 11 | Chrome | Latest | Desktop VM |
+| **1** | Windows 10 | Firefox | Latest | Desktop VM |
+| **2** | macOS Sonoma | Safari | Latest | Desktop VM |
+| **3** | Samsung Galaxy S23 (Android 13) | Chrome | — | **Real Device** |
+| **4** | iPhone 15 (iOS 17) | Safari | — | **Real Device** |
+
+---
+Session videos, logs, and network traces are available on the [BrowserStack Automate dashboard](https://automate.browserstack.com/projects/Default+Project/builds/ElPais+Parallel+Build/1?tab=insights).
+
+
+
 ## 📸 Proof of Execution
 1. Local Console Output
 When the script runs, it generates a real-time log of the scraping and translation process:
