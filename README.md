@@ -55,6 +55,7 @@ The script iterates through the first 5 Spanish titles, passes them to the ```Go
 ## 🛠️  How to Run
 1. Clone the project and navigate to the directory:
 ```
+git clone https://github.com/Rishushukla157/elpais-selenium-automation.git
 cd browserstack_assignment
 ```
 
