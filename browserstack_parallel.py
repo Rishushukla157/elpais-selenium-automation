@@ -7,8 +7,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import threading
 
-USERNAME = "rishushukla_C0TFLb"
-ACCESS_KEY = "XkFp2qxCQp62KQCkfhWY"
+USERNAME = "your_browserstack_username"
+ACCESS_KEY = "your_browserstack_access_key"
 
 BROWSERSTACK_URL = f"https://{USERNAME}:{ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub"
 
